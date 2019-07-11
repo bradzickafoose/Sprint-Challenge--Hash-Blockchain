@@ -51,14 +51,17 @@ if __name__ == '__main__':
     coins_mined = 0
 
     # Load or create ID
-    f = open("my_id.txt", "w+")
+    f = open("my_id.txt", "r")
     id = f.read()
+    print("ID is", id)
+    f.close()
     if len(id) == 0:
+        f = open("my_id.txt", "w")
         # Generate a globally unique ID
         id = str(uuid4()).replace('-', '')
         print("Created new ID: " + id)
         f.write(id)
-    f.close()
+        f.close()
     # Run forever until interrupted
     while True:
         # Get the last proof from the server
