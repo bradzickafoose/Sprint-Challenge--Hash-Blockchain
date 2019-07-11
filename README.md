@@ -18,7 +18,7 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Description
 
-This sprint challenge is divided up into three parts:  Hash tables (24 points), blockhain (?? points) and a short interview (20 points). There is also a stretch goal in the blockchain section which should only be attempted after the rest of the problems have been completed.
+This sprint challenge is divided up into three parts:  Hash tables (24 points), blockchain (12 points) and a short interview (20 points). There is also a stretch goal in the blockchain section which should only be attempted after the rest of the problems have been completed.
 
 ## Interview Questions
 
