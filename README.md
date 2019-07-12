@@ -61,7 +61,7 @@ You can earn 35 points from the main coding portion of the sprint challenge.  Be
 #### [Blockchain](https://github.com/LambdaSchool/Sprint-Challenge--Hash-BC/tree/master/blockchain) - 12 pts
   * ex1 - 12 pts
 
-#### [Hash Tables](https://github.com/LambdaSchool/Sprint-Challenge--Hash-Theory/tree/master/hash-tables) - 24 pts
+#### [Hash Tables](https://github.com/LambdaSchool/Sprint-Challenge--Hash-BC/tree/master/hash-tables) - 24 pts
   * ex1 - 12 pts
   * ex2 - 12 pts
 
