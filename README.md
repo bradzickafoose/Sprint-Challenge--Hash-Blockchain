@@ -40,26 +40,26 @@ You will receive points at the PM's discretion based on the following criteria:
 
 ## Project Set Up
 
-#### [Hash Tables](TODO)
+#### [Hash Tables]
 
-For the hash tables portion of the sprint challenge, you'll be working through two algorithm problems that are amenable to being solved efficiently using a hash table. You know the drill at this point. Navigate into each exercise's directory, read the instructions for the exercise laid out in the README, implement your solution in the .c skeleton file, then make sure your code passes the tests by running the test script with make tests.
+For the hash tables portion of the sprint challenge, you'll be working through two algorithm problems that are amenable to being solved efficiently using a hash table. You know the drill at this point. Navigate into each exercise's directory, read the instructions for the exercise laid out in the README, implement your solution in the .py skeleton file, then make sure your code passes the tests by running the test script with make tests.
 
 A hash table implementation has been included for you already. Your task is to get the tests passing (ideally using a hash table to do it). You can remind yourself of what hash table functions are available by looking at the hashtable.py file that is included in each exercise directory (note that the hash table implementations for both exercises differ slightly).
 
-*You may not use any advanced built-in Python functions to solve this problem.*
+*You may not use any advanced built-in Python functions to solve these problems.*
 
-#### [Blockchain](TODO)
+#### [Blockchain]
 
-TODO
+For the blockchain portion of the challenge, you will be writing code for a new miner that will solve a different Proof of Work algorithm than the one we have been working with.
+
+Your goal is to mine at least one coin.  Keep in mind that with many people competing over the same coins, this may take a long time.  By our math, we expect that an average solution should be the first to find a solution at least once in an hour or two of mining.  
 
 ## Minimum Viable Product
 
-You can earn 35 points from the main coding portion of the sprint challenge and up to 4 extra points for completing the stretch goal. Stretch points will only be counted if all regular problems have been completed.
+You can earn 35 points from the main coding portion of the sprint challenge.  Be sure to budget your time wisely.  The Blockchain challenge is fun, but it is only 1/3 of the points availible for the coding portion of this challenge.  
 
-#### [Blockchain](TODO) - ?? pts
-  * Boolean 1 - 3 pt
-  * Boolean 2 - 3 pt
-  * Boolean 3 - 5 pt
+#### [Blockchain](https://github.com/LambdaSchool/Sprint-Challenge--Hash-BC/tree/master/blockchain) - 12 pts
+  * ex1 - 12 pts
 
 #### [Hash Tables](https://github.com/LambdaSchool/Sprint-Challenge--Hash-Theory/tree/master/hash-tables) - 24 pts
   * ex1 - 12 pts
@@ -71,13 +71,6 @@ Both Hash Table problems will be graded as follows:
   * 3: Tests pass
   * 4: Tests pass, using the existing hash table implementation, no flake8 complaints
   * 5: Tests pass, using the existing hash table implementation, no flake8 complaints, linear runtime complexity
-
-
-#### [Blockchain Stretch](TODO) - 4 pts
-  * Truth Table - 1 pt
-  * Sum - 1 pt
-  * Carry - 2 pts
-
 
 
 ### Grading
