@@ -17,6 +17,7 @@ def proof_of_work(last_proof):
     to the first six digits of hash(p')
     - IE:  last_hash: ...AE9123456, new hash 123456888...
     - p is the previous proof, and p' is the new proof
+    - Use the same method to generate SHA-256 hashes as the examples in class
     - Note:  We are adding the hash of the last proof to a number/nonce for the new proof
     """
 
@@ -33,9 +34,9 @@ def proof_of_work(last_proof):
 def valid_proof(last_hash, proof):
     """
     Validates the Proof:  Multi-ouroborus:  Do the last six characters of
-    the last hash match the first six characters of the proof?
+    the hash of the last proof match the first six characters of the proof?
 
-    IE:  last_hash: ...999123456, new hash 123456888...
+    IE:  last_hash: ...AE9123456, new hash 123456888...
     """
 
     # TODO: Your code here!
