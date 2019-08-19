@@ -15,8 +15,9 @@ def proof_of_work(last_proof):
     Multi-Ouroboros of Work Algorithm
     - Find a number p' such that the last six digits of hash(p) are equal
     to the first six digits of hash(p')
-    - IE:  last_hash: ...999123456, new hash 123456888...
+    - IE:  last_hash: ...AE9123456, new hash 123456888...
     - p is the previous proof, and p' is the new proof
+    - Note:  We are adding the hash of the last proof to a number/nonce for the new proof
     """
 
     start = timer()
