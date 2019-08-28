@@ -13,9 +13,9 @@ Multi-Ouroboros of Work Algorithm
     - p is the previous proof, and p' is the new proof
 
 Some things to keep in mind:
-
 * With everyone mining at once, it may take a long time to actually mine a coin on the main server. _You will lose the contest most of the time!_
-* There are three test servers that you can test your code on:  lambda-coin-test-1, lambda-coin-test-2, lambda-coin-test-3.   As before, you can change the server that the miner uses by including it in the command to run the miner:  `python3 miner.py http://lambda-coin-test-1.herokuapp.com/api
+* There is a test server that you can test your code on:  lambda-coin-test-1.   As before, you can change the server that the miner uses by including it in the command to run the miner:  `python3 miner.py https://lambda-coin-test-1.herokuapp.com/api
+** Please only mine against the test server to test your code - stop mining when the test is over
 * The main server, and the competition, is the default and will run with `python3 miner.py`
 
 
