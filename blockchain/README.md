@@ -21,7 +21,7 @@ Some things to keep in mind:
 
 Some Strategy Suggestions:
 * Don't forget to install dependencies with `pipenv install` and run them inside `pipenv shell`
-* Think about what will happen if your strategy is the same as the example from class.  If you start at 0 and count upward, and someone else does the same thing, but they start earlier or have a faster computer, what will happen?
+* *Think about what will happen if your strategy is the same as the example from class.  If you start at 0 and count upward, and someone else does the same thing, but they start earlier or have a faster computer, what will happen?*
 
 ## Rubric
 
