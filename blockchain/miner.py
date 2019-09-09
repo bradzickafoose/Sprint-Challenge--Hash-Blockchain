@@ -57,13 +57,10 @@ if __name__ == '__main__':
     id = f.read()
     print("ID is", id)
     f.close()
-    if len(id) == 0:
-        f = open("my_id.txt", "w")
-        # Generate a globally unique ID
-        id = str(uuid4()).replace('-', '')
-        print("Created new ID: " + id)
-        f.write(id)
-        f.close()
+
+    if id == 'NONAME\n':
+        print("ERROR: You must change your name in `my_id.txt`!")
+        exit()
     # Run forever until interrupted
     while True:
         # Get the last proof from the server

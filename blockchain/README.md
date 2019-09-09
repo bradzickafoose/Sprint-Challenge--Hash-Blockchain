@@ -14,9 +14,10 @@ Multi-Ouroboros of Work Algorithm
 
 Some things to keep in mind:
 * With everyone mining at once, it may take a long time to actually mine a coin on the main server. _You will lose the contest most of the time!_
-* There is a test server that you can test your code on:  lambda-coin-test-1.   As before, you can change the server that the miner uses by including it in the command to run the miner:  `python3 miner.py https://lambda-coin.herokuapp.com/api`
+* There is a test server that you can test your code on:  lambda-coin-test-1.   As before, you can change the server that the miner uses by including it in the command to run the miner:  `python3 miner.py https://lambda-coin-test-1.herokuapp.com/api`
 ** Please only mine against the test server to test your code - stop mining when the test is over
 * The main server, and the competition, is the default and will run with `python3 miner.py`
+* Please change your name in `my_id.txt` to something recognizable
 
 
 Some Strategy Suggestions:
@@ -27,7 +28,7 @@ Some Strategy Suggestions:
 
 This problem will be graded out of 12 posts:
 
-* 2: Code attempted
+* 2: Changed name in `my_id.txt`
 * 4: Code resembles a correct solution
 * 6: Miner is capable of mining a coin
 * 8: Miner successfully mines a coin before 2 hours after the end of the SC
