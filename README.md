@@ -18,25 +18,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Description
 
-This sprint challenge is divided up into three parts:  Hash tables (24 points), blockchain (12 points) and a short interview (20 points). There is also a stretch goal in the blockchain section which should only be attempted after the rest of the problems have been completed.
+This sprint challenge is divided up into three parts:  Hash tables coding, blockchain coding, and a short interview covering parts of hash tables and blockchain.
 
 ## Interview Questions
 
-During your challenge, you will be pulled aside by a PM for a 5 minute interview. During this interview, you will be expected to answer the following three questions:
+During your challenge, you will be pulled aside by a PM for a 5 minute interview. During this interview, you will be expected to answer the following two topics:
 
-  * 1. What is a blockchain and how does it work?
-  * 2. What is an array and how does it work?
-  * 3. What is a hash table and how does it work?
+Explain in detail the workings of a dynamic array:
+* What is the runtime complexity to access an array, add or remove from the front, and add or remove from the back?
+* What is the worse case scenario if you try to extend the storage size of a dynamic array?
 
-You will receive points at the PM's discretion based on the following criteria:
-
-  * 20: Would love to have this person on my team!
-  * 14: Wouldn't mind working with this person.
-  * 10: Knowledge is lacking OR poor communication skills
-  *  6: Knowledge is lacking AND poor communication skills
-  *  2: You get 2 points for showing up
-
-
+Explain how blockchain networks remain in consensus:
+* What does a node do if it gets a message from another in the network with a new block?
+* Why can't someone cheat by changing a transaction from an earlier block to give themselves coins?
 
 ## Project Set Up
 
@@ -44,9 +38,9 @@ You will receive points at the PM's discretion based on the following criteria:
 
 For the hash tables portion of the sprint challenge, you'll be working through two algorithm problems that are amenable to being solved efficiently using a hash table. You know the drill at this point. Navigate into each exercise's directory, read the instructions for the exercise laid out in the README, implement your solution in the .py skeleton file, then make sure your code passes the tests by running the test script with make tests.
 
-A hash table implementation has been included for you already. Your task is to get the tests passing (ideally using a hash table to do it). You can remind yourself of what hash table functions are available by looking at the hashtable.py file that is included in each exercise directory (note that the hash table implementations for both exercises differ slightly).
+A hash table implementation has been included for you already. Your task is to get the tests passing (using a hash table to do it). You can remind yourself of what hash table functions are available by looking at the hashtable.py file that is included in each exercise directory (note that the hash table implementations for both exercises differ slightly).
 
-*You may not use any advanced built-in Python functions to solve these problems.*
+*You may not use any advanced, built-in Python functions to solve these problems.*
 
 #### [Blockchain]
 
@@ -56,34 +50,17 @@ Your goal is to mine at least one coin.  Keep in mind that with many people comp
 
 ## Minimum Viable Product
 
-You can earn 35 points from the main coding portion of the sprint challenge.  Be sure to budget your time wisely.  The Blockchain challenge is fun, but it is only 1/3 of the points availible for the coding portion of this challenge.  
+#### [Hash Tables](https://github.com/LambdaSchool/Sprint-Challenge--Hash-BC/tree/master/hashtables)
 
-#### [Blockchain](https://github.com/LambdaSchool/Sprint-Challenge--Hash-BC/tree/master/blockchain) - 12 pts
-  * ex1 - 12 pts
-
-#### [Hash Tables](https://github.com/LambdaSchool/Sprint-Challenge--Hash-BC/tree/master/hashtables) - 24 pts
-  * ex1 - 12 pts
-  * ex2 - 12 pts
-
-Both Hash Table problems will be graded as follows:
-  * 1: Code attempted
-  * 2: Code resembles the correct solution
-  * 3: Tests pass
-  * 4: Tests pass, using the existing hash table implementation, no flake8 complaints
-  * 5: Tests pass, using the existing hash table implementation, no flake8 complaints, linear runtime complexity
+#### [Blockchain](https://github.com/LambdaSchool/Sprint-Challenge--Hash-BC/tree/master/blockchain)
 
 
-### Grading
+### Rubric
 
-Students can receive up to 55 points in total for this Sprint Challenge (not including 4 extra credit points). 
-
-  * __Challenge__: 35
-  * __Interview__: 20
-
---------
-
-The score distributions are as follows:
-
-  * __3__: >= 48 points
-  * __2__: >= 35 points
-  * __1__: < 34 points 
+| *OBJECTIVE*                                                                                                     | *TASK*             | *1 - DOES NOT MEET EXPECTATIONS*                                                                                            | *2 - MEETS EXPECTATIONS*                                                                                                       | *3 - EXCEEDS EXPECTATIONS                                                                                                                             |
+|-----------------------------------------------------------------------------------------------------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| implement and describe how high-level array functions work down to the memory level                             | Interview Question | If you were evaluating this candidate for a position with your company, your would object to them being added to your team. | If you were evaluating this candidate for a position with your company, you would be pleased to have this person on your team. | If you were evaluating this candidate for a position with your company, you would go out of your way to make sure this person is hired for your team. |
+| implement and utilize basic hash table + handle collisions and resizing in a hash table                         | Hash Problem 1 & 2 | Tests do not pass on one or both problems, or solutions do not use hash tables.                                             | Tests pass on both problems.  Solution utilizes a hash table.                                                                  | Tests pass on on both problems with solutions utilizing hash tables, linear runtime complexity, no flake8 complaints.                                 |
+| diagram and code a simple blockchain, utilizing a cryptographic hash                                            | Interview Question | If you were evaluating this candidate for a position with your company, your would object to them being added to your team. | If you were evaluating this candidate for a position with your company, you would be pleased to have this person on your team. | If you were evaluating this candidate for a position with your company, you would go out of your way to make sure this person is hired for your team. |
+| utilize a Proof of Work process to protect a blockchain from attack                                             | Blockchain Problem | The student is unable to mine a coin before the end of lunch.                                                               | The student was able to mine a coin before the end of lunch.                                                                   | The student presented a unique solution that was able to mine more than 100 coins before the end of lunch.                                            |
+| build a protocol to allow nodes in a blockchain network to communicate to share blocks and determine consensus. | Interview Question | If you were evaluating this candidate for a position with your company, your would object to them being added to your team. | If you were evaluating this candidate for a position with your company, you would be pleased to have this person on your team. | If you were evaluating this candidate for a position with your company, you would go out of your way to make sure this person is hired for your team. |

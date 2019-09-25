@@ -23,13 +23,3 @@ Some things to keep in mind:
 Some Strategy Suggestions:
 * Don't forget to install dependencies with `pipenv install` and run them inside `pipenv shell`
 * _Think about what will happen if your strategy is the same as the example from class.  If you start at 0 and count upward, and someone else does the same thing, but they start earlier or have a faster computer, what will happen?_
-
-## Rubric
-
-This problem will be graded out of 12 posts:
-
-* 2: Changed name in `my_id.txt`
-* 4: Code resembles a correct solution
-* 6: Miner is capable of mining a coin
-* 8: Miner successfully mines a coin before 2 hours after the end of the SC
-* 12: Miner mines at least three coins before 2 hours after the end of the SC
